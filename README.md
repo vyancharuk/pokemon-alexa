@@ -31,4 +31,5 @@ More details on `ngrok` setup here https://developer.amazon.com/blogs/alexa/post
   - `npm run serve`
 
 - use ASK ClI to test
-- `ask dialog --locale en-US`
+
+  - `ask dialog --locale en-US`
