@@ -1,0 +1,31 @@
+{
+  "name": "pokemon-info",
+  "version": "1.1.0",
+  "description": "skill to get info about pokemon",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "npx mocha ./src/tests",
+    "serve": "node ./src/express/index.js",
+    "ngrok": "npx ngrok http 3001"
+  },
+  "author": "Amazon Alexa",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.6.0",
+    "ask-sdk-express-adapter": "^2.1.0",
+    "ask-sdk-model": "^1.28.0",
+    "aws-sdk": "^2.326.0",
+    "cache-manager": "^3.3.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "pokedex-promise-v2": "^3.2.0"
+  },
+  "devDependencies": {
+    "ask-sdk-test": "^2.3.0",
+    "eslint": "^7.0.0",
+    "mocha": "^7.1.2",
+    "ngrok": "^3.2.7",
+    "sinon": "^9.0.2"
+  }
+}

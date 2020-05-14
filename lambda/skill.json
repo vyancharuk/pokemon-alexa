@@ -1,0 +1,25 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://dc8cbe7f.ngrok.io",
+          "sslCertificateType": "Wildcard"
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A skill to get info about Pokemon.",
+          "name": "pokeinfo",
+          "examplePhrases": [
+            "alexa open nice",
+            "tell me about Pikachu",
+            "what is Pikachu's height"
+          ]
+        }
+      }
+    }
+  }
+}
